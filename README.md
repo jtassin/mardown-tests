@@ -13,7 +13,7 @@ stop :  docker-compose down
 
 * Telecharger le script rename sur : https://interconnectit.com/products/search-and-replace-for-wordpress-databases/
 * Le déplacement dans le rep wordpress
-```
+```sh
 scp -r /tmp/wp/rename/ root@prweb1:/var/www/wpartp/wp/
 ```
 * Aller sur http://<host>/rename
